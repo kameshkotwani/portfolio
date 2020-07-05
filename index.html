@@ -4,49 +4,59 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>2K</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/660b94a741.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://www.getbootstrap.com/examples/sticky-footer.css">
+		<script src="https://kit.fontawesome.com/660b94a741.js" crossorigin="anonymous"></script>
+		<link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="./favicon.png">
+	<title>Kamesh Kotwani</title>
+
 </head>
 
-<body style="background:whitesmoke;">
+<body style="background: radial-gradient(circle, rgba(247,247,247,1) 10%, rgba(247,247,247,0.8855917366946778) 96%);">
+	<!--navigation bar-->
 
-	<div class="container">
-		<!--main container-->
-		<h1 style=" background: radial-gradient(circle, rgb(245, 244, 244) 0%, rgb(241, 241, 241) 60%);"
-			class="shadow pt-3 p-2 mb-5 p-3 my-2 text-center"><code>this will generate random quotes-soon.</code></h1>
-
-		<div class="container shadow overflow-auto my-5	">
-			<!--profile-image-->
-			<img class="col float-left mx-3  my-5 rounded-circle" src="./profile.jpeg" alt="Profile Image"
-				style="height: 200px; width:210px;" />
-			<!--Intro-->
-			<p class="col lead pt-5 pb-4 m-2">Hey, my name is <kbd>Kamesh Kotwani.</kbd> An evolving developer who loves to
-				tinker around with new software. Currently, enjoying Data Strutures and Algorithms. I use bing. Follow me at
-				below platforms!</p>
-			<!--social-media-icons-->
-
-			<div class="col-sm">
-				<a href="https://www.linkedin.com/in/kameshkotwani/" target="_blank"><i
-						class="mx-1 fab fa-3x fa-linkedin"></i></a>
-				<a href="https://www.github.com/kameshkotwani" target="_blank"><i
-						class="mx-1 fab fa-3x fa-github-square"></i></a>
-				<a href="https://www.twitter.com/kameshkotwani" target="_blank"><i
-						class="mx-2 fab fa-3x fa-twitter-square"></i></a> <br>
-				<!--resume-download-link-->
-				<a href="https://drive.google.com/file/d/1zIzPDoWmTwHWqCAxAfvthTvr3KIy5-hP/view?usp=sharing" target="_blank" style="text-decoration: none;"><button type="button"
-						class="btn btn-dark">download resume <i class="mx-1 fas fa-download"></i></button></a>
-			</div>
-		</div>
-		<!--navigation-block-->
-		<ul class="pagination justify-content-center fixed-bottom">
-			<li class="page-item"><a href="./index.html" class="shadow page-link bg-success text-white">home</a></li>
-			<li class="page-item"><a href="./projects.html" class="shadow page-link bg-primary text-white">projects</a></li>
+	<nav class="navbar navbar-expand-sm bg-light shadow justify-content-center">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="./index.html">/about/</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./projects.html">/projects/</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./inventory.html">/inventory/</a>
+			</li>
 		</ul>
-		<!--navigation block-->
-	</div>
-	<!--container-class-main-page-->
+	</nav> <!--nav-bad-end-->
+
+	<div class="container my-5 pt-5">
+		<!--content-container-->
+		<div class="container shadow overflow-auto p-3">
+			<div class="row align-items-center">
+				<div class="col-sm col-lg  mx-2">
+					<img class="rounded-circle overflow-auto"
+						src="https://github.com/kameshkotwani/portfolio/blob/master/profile.jpeg?raw=true"
+						width="200px" height="200px" alt="some-image">
+				</div>
+				<div class="col-sm col-lg-9  mx-2">
+					<p class="lead my-2">Hey, my name is <kbd>Kamesh Kotwani.</kbd> An evolving developer who loves to
+						tinker around with new software. Currently, enjoying Data Strutures and Algorithms. I use bing. Follow me at
+						below platforms!</p>
+					<div class="d-flex flex-row  p-1 flex-wrap align-items-center">
+						<div class="p-2   flex-wrap-reverse my-1"><a href="https://www.linkedin.com/in/kameshkotwani/" target="_blank"><i
+							class="mx-1 fab fa-3x fa-linkedin"></i></a></div>
+						<div class="p-2   flex-wrap-reverse my-1"><a href="https://www.github.com/kameshkotwani" target="_blank"><i
+							class="mx-1 fab fa-3x fa-github-square"></i></a></div>
+						<div class="p-2   flex-wrap-reverse my-1"><a href="https://www.twitter.com/kameshkotwani" target="_blank"><i
+							class="mx-2 fab fa-3x fa-twitter-square"></i></a></div>
+						<div class="p-3   flex-wrap-reverse my-1"><a href="https://drive.google.com/file/d/1zIzPDoWmTwHWqCAxAfvthTvr3KIy5-hP/view?usp=sharing" target="_blank" style="text-decoration: none;"><button type="button"
+							class="btn btn-dark">download resume <i class="mx-1 fas fa-download"></i></button></a></div>
+					</div>
+				</div>
+			</div>
+		</div><!--grid-content-div-->
+	</div> <!--main-container-div-->	
 </body>
 
 </html>
